@@ -28,7 +28,7 @@
                 ws.close();
             }
 
-            ws = new WebSocket('ws://localhost:3000');
+            ws = new WebSocket('https://theminecrafter05.github.io/chatter/index.html');
             ws.onopen = () => {
                 console.log('Connection opened!')
                 ws.send("An user joined!");
