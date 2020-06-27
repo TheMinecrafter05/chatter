@@ -28,7 +28,7 @@
                 ws.close();
             }
 
-            ws = new WebSocket('https://localhost:3000');
+            ws = new WebSocket('https://185.199.108.153:3000');
             ws.onopen = () => {
                 console.log('Connection opened!')
                 ws.send("An user joined!");
