@@ -46,7 +46,7 @@
                 return;
             }else{
                 let username = `${usernamebox.value}`;
-                if(username == "") username = "User"
+                if(username == "") username = "No Username"
                 messageBox.value = `${username}: ${messageBox.value}`
                 ws.send(messageBox.value);
                 showMessage(messageBox.value);
