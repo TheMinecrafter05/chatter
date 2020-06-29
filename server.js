@@ -29,4 +29,5 @@ wss.on("connection",ws=>{
 })
 server.listen(port, ()=>{
     console.log(`Server running`)
+    console.log(process.stdout.address())
 })
